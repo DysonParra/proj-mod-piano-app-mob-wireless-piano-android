@@ -1,0 +1,60 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/txtWriteIpMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/textViewSize"
+        android:layout_centerHorizontal="true"
+        android:text="@string/txtWriteIpMessage"/>
+
+    <EditText
+        android:id="@+id/editTextAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/textViewSize"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtWriteIpMessage"
+        android:hint="@string/editTextIpAddressHint"
+        android:inputType="textFilter"
+        android:text="@string/editTextIpAddress"/>
+
+    <EditText
+        android:id="@+id/editTextPort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextAddress"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/textViewSize"
+        android:hint="@string/editTextPortHint"
+        android:inputType="number"
+        android:text="@string/editTextPort" />
+
+    <Spinner
+        android:id="@+id/spnInstrument"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_marginBottom="@dimen/marginBottom"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/textViewSize"
+        android:layout_below="@+id/editTextPort"
+        android:entries="@array/arrayInstrument"
+    >
+    </Spinner>
+
+    <Button
+        android:id="@+id/btnConnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_marginBottom="@dimen/marginBottom"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/spnInstrument"
+        android:text="@string/btnConnect"/>
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txtAppName">Wireless piano</string>
+    <string name="txtWriteIpMessage">Write an ip address and a connection port of a wireless piano.</string>
+    <string name="editTextIpAddressHint">Ip address</string>
+    <string name="editTextPortHint">Port</string>
+    <string name="editTextIpAddress">192.168.1.2</string>
+    <string name="editTextPort">2</string>
+
+    <string-array name="arrayInstrument">
+        <item>Yamaha Grand Piano</item>
+        <item>Electric Piano</item>
+    </string-array>
+
+    <string name="btnConnect">Connect</string>
+
+    <string name="noIpAddressMsg">Write an ip address first.</string>
+    <string name="noPortMsg">Write a connection port first.</string>
+    <string name="invalidServerMsg">Can´t connect with specified server.</string>
+
+    <string name="btnBack">Disconnect</string>
+    <string name="msgComeBack">Are you sure you want to disconnect from the remote piano?</string>
+
+    <string name="errorTitle">Error</string>
+    <string name="errorMsg">Can´t connect with the server.</string>
+</resources>
