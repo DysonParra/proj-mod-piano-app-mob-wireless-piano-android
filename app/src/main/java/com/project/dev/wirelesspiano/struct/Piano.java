@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {Piano} se encarga de realizar tareas específicas.
+ * @fileoverview    {Piano}
  *
  * @version         2.0
  *
