@@ -33,7 +33,7 @@ import com.project.dev.wirelesspiano.struct.UdpClient;
 import com.project.dev.wirelesspiano.R;
 
 /**
- * TODO: Definición de {@code PianoActivity}.
+ * TODO: Description of {@code PianoActivity}.
  *
  * @author Dyson Parra
  * @since 11
@@ -185,7 +185,7 @@ public class PianoActivity extends Activity {
     }
 
     /**
-     * FIXME: Definición de {@code BlackKeyTouchListener}. Comportamiento de las teclas negras.
+     * FIXME: Description of {@code BlackKeyTouchListener}. Comportamiento de las teclas negras.
      */
     private class BlackKeyTouchListener implements View.OnTouchListener {
 
@@ -244,7 +244,7 @@ public class PianoActivity extends Activity {
     };
 
     /**
-     * FIXME: Definición de {@code WhiteKeyTouchListener}. Comportamiento de las teclas blancas.
+     * FIXME: Description of {@code WhiteKeyTouchListener}. Comportamiento de las teclas blancas.
      */
     private class WhiteKeyTouchListener implements View.OnTouchListener {
 
@@ -302,7 +302,7 @@ public class PianoActivity extends Activity {
     };
 
     /**
-     * FIXME: Definición de {@code C4KeyTouchListener}. Comportamiento del do central.
+     * FIXME: Description of {@code C4KeyTouchListener}. Comportamiento del do central.
      */
     private class C4KeyTouchListener implements View.OnTouchListener {
 
@@ -360,7 +360,7 @@ public class PianoActivity extends Activity {
     };
 
     /**
-     * FIXME: Definición de {@code onKeyDown}. Comportamiento del botón atrás.
+     * FIXME: Description of {@code onKeyDown}. Comportamiento del botón atrás.
      *
      * @param keyCode
      * @param event

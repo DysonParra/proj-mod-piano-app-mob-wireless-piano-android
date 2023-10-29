@@ -19,7 +19,7 @@ import android.widget.ImageView;
 import lombok.Data;
 
 /**
- * TODO: Definición de {@code Piano}.
+ * TODO: Description of {@code Piano}.
  *
  * @author Dyson Parra
  * @since 11
@@ -37,7 +37,7 @@ public final class Piano {
     private int instrumentId;                                                           // Id del instrumento con los sonidos de cada tecla del piano.
 
     /**
-     * TODO: Definición de {@code Piano}.
+     * TODO: Description of {@code Piano}.
      *
      * @param keyQuantity  indica la cantidad de teclas del piano.
      * @param C4           indica el número de do que será el do central.

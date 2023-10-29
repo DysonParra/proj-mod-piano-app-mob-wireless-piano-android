@@ -29,7 +29,7 @@ import com.project.dev.wirelesspiano.struct.UdpClient;
 import com.project.dev.wirelesspiano.R;
 
 /**
- * TODO: Definición de {@code MainActivity}.
+ * TODO: Description of {@code MainActivity}.
  *
  * @author Dyson Parra
  * @since 11
