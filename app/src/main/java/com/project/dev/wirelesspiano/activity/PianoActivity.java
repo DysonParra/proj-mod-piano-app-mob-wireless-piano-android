@@ -36,7 +36,7 @@ import com.project.dev.wirelesspiano.R;
  * TODO: Definición de {@code PianoActivity}.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public class PianoActivity extends Activity {
 

@@ -22,7 +22,7 @@ import lombok.Data;
  * TODO: Definición de {@code Piano}.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 //@AllArgsConstructor
 //@Builder
