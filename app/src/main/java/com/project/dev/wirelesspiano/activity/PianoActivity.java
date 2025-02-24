@@ -36,7 +36,7 @@ import com.project.dev.wirelesspiano.R;
  * TODO: Description of {@code PianoActivity}.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 public class PianoActivity extends Activity {
 
