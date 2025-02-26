@@ -64,7 +64,7 @@ public class PianoActivity extends Activity {
     private String serverPort;                          // Puerto de conexión al servidor.
 
     /**
-     * Invocado cuando se crea el activity.
+     * FIXME: Description of {@code onCreate}. Invocado cuando se crea el activity.
      *
      * @param savedInstanceState
      */
@@ -186,6 +186,7 @@ public class PianoActivity extends Activity {
 
     /**
      * FIXME: Description of {@code BlackKeyTouchListener}. Comportamiento de las teclas negras.
+     *
      */
     private class BlackKeyTouchListener implements View.OnTouchListener {
 
@@ -245,6 +246,7 @@ public class PianoActivity extends Activity {
 
     /**
      * FIXME: Description of {@code WhiteKeyTouchListener}. Comportamiento de las teclas blancas.
+     *
      */
     private class WhiteKeyTouchListener implements View.OnTouchListener {
 
@@ -303,6 +305,7 @@ public class PianoActivity extends Activity {
 
     /**
      * FIXME: Description of {@code C4KeyTouchListener}. Comportamiento del do central.
+     *
      */
     private class C4KeyTouchListener implements View.OnTouchListener {
 
