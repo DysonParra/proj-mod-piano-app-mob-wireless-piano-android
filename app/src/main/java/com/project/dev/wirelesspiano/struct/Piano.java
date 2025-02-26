@@ -37,7 +37,7 @@ public final class Piano {
     private int instrumentId;                                                           // Id del instrumento con los sonidos de cada tecla del piano.
 
     /**
-     * TODO: Description of {@code Piano}.
+     * TODO: Description of method {@code Piano}.
      *
      * @param keyQuantity  indica la cantidad de teclas del piano.
      * @param C4           indica el número de do que será el do central.

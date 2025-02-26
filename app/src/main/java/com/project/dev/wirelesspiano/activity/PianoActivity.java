@@ -64,7 +64,7 @@ public class PianoActivity extends Activity {
     private String serverPort;                          // Puerto de conexión al servidor.
 
     /**
-     * FIXME: Description of {@code onCreate}. Invocado cuando se crea el activity.
+     * FIXME: Description of method {@code onCreate}. Invocado cuando se crea el activity.
      *
      * @param savedInstanceState
      */
@@ -185,7 +185,7 @@ public class PianoActivity extends Activity {
     }
 
     /**
-     * FIXME: Description of {@code BlackKeyTouchListener}. Comportamiento de las teclas negras.
+     * FIXME: Description of method {@code BlackKeyTouchListener}. Comportamiento de las teclas negras.
      *
      */
     private class BlackKeyTouchListener implements View.OnTouchListener {
@@ -245,7 +245,7 @@ public class PianoActivity extends Activity {
     };
 
     /**
-     * FIXME: Description of {@code WhiteKeyTouchListener}. Comportamiento de las teclas blancas.
+     * FIXME: Description of method {@code WhiteKeyTouchListener}. Comportamiento de las teclas blancas.
      *
      */
     private class WhiteKeyTouchListener implements View.OnTouchListener {
@@ -304,7 +304,7 @@ public class PianoActivity extends Activity {
     };
 
     /**
-     * FIXME: Description of {@code C4KeyTouchListener}. Comportamiento del do central.
+     * FIXME: Description of method {@code C4KeyTouchListener}. Comportamiento del do central.
      *
      */
     private class C4KeyTouchListener implements View.OnTouchListener {
@@ -363,7 +363,7 @@ public class PianoActivity extends Activity {
     };
 
     /**
-     * FIXME: Description of {@code onKeyDown}. Comportamiento del botón atrás.
+     * FIXME: Description of method {@code onKeyDown}. Comportamiento del botón atrás.
      *
      * @param keyCode
      * @param event

@@ -36,7 +36,7 @@ public class UdpClient {
     private String strResponse;                                                         // Paquetes recibidos en string.
 
     /**
-     * TODO: Description of {@code UdpClient}.
+     * TODO: Description of method {@code UdpClient}.
      *
      * @param ipAddres   es la ip del servidor.
      * @param serverPort es el puerto del servidor.
@@ -54,7 +54,7 @@ public class UdpClient {
     }
 
     /**
-     * FIXME: Description of {@code send}. Envía un mensaje.
+     * FIXME: Description of method {@code send}. Envía un mensaje.
      *
      * @param requestType es el tipo de requerimiento que se enviará al servidor.
      * @param status      es el array con los estados de las teclas.
