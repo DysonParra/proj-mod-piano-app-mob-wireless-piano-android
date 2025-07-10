@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {Piano}
+ * @overview        {Piano}
  *
  * @version         2.0
  *
